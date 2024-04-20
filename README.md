@@ -16,8 +16,3 @@
 ->Clone this repository using git
 ->Compile and run the code examples using a C compiler
 
-**Contribution**
-->Feel free to contribute to this repository by:
-->Adding new data structures and algorithms
-->Improving existing code examples
-->Providing clearer explanations
