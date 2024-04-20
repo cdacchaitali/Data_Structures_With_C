@@ -1,6 +1,6 @@
 # Data Structures & Algorithms in C (CDAC CBP Course)
 
-->This repository contains source code, explanations, and examples for learning data structures and algorithms implemented in C programming language. 
+->This repository contains source code, explanations,and examples for learning data structures and algorithms implemented in C programming language. 
 
 ->It's designed to support the CBP course offered at CDAC Bangalore.
 
