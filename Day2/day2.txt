@@ -1,0 +1,47 @@
+//-------------------------------------------------------------------------
+//Institute : CDAC (CBP->Capacity Building Program) Bangalore
+//-------------------------------------------------------------------------
+//Abstract : Data Structure Day 2
+//-------------------------------------------------------------------------
+//Author : Chaitali Ahire
+//-------------------------------------------------------------------------
+
+We use functions as a means to organize our code by dividing the task/program into sub tasks/programs
+
+Let us understand the usage of these functions
+------->Different syntaxes can be used in function
+	----------> Funtions taking no arguments returning nothing
+	----------> Functions taking no argumentsreturning something
+	----------> Functions taking arguments returning something
+
+--------> We will try to understand the working of functions (flow of control)
+	----------> Always remember your program starts with main() and ends with main()..
+	----------> see funintro.c for learning about control flow in functions.
+
+
+--------> Recursion
+	-------> Recursion functions are used to solve recurrence problems.
+	-------> see recurr.c for learning about recursion and its similarities with iterative loops
+	-------> recursion is prefered when you need to write code in minimum lines of code and dont mind extra memory
+	-------> Using recursion
+			1. Factorial of a number in factor.c
+			2. Power of number raise to number in powernum.c
+			3. Fibonacci Number in fibonacci.c
+			4. Reversing an array in reverse.c
+			5. Tower of hanoi in towerofhanoi.c
+	--------> What is Direct vs ndirect recursion?
+			1. Direct = funA() -> funA()
+			2. Indirect Recursion = funA() -> funB() -> funA() in indirectrecur.c
+	--------> Indirect recursion is also a way to achieve recursion
+
+	--------> Consider an example where you remove the termination if condition in recurr.c
+	--------> Eventually you will get a stack overflow which is segmentation fault
+	--------> Use option -S to generate assembly file of a C program
+	--------> gcc -S -o2 recur.c
+	--------> in tail recursion there is no recursive function call and stack space is not used due to optimization
+	--------> Therefore there is no stack overflow or segmentation fault problems in optimized tail recursive code
+
+Some more important sorting algorithms!
+	-----> Merge Sort in merge_sort.c
+	-----> Quick Sort in quick_sort.c
+	-----> Heap Sort in heap_sort.c
