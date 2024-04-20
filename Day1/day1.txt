@@ -1,0 +1,21 @@
+//-------------------------------------------------------------------------
+//Institute : CDAC (CBP->Capacity Building Program) Bangalore
+//-------------------------------------------------------------------------
+//Abstract : Data Structure Day 1
+//-------------------------------------------------------------------------
+//Author : Chaitali Ahire
+//-------------------------------------------------------------------------
+
+	Data Struture Introduction by fill the array & print the array lets see the example of code in dsintro.c
+
+	Check number is prime for specific range if prime print that number otherwise non prime number print 0 then calculate in which prime numbers max zero came lets see the example of this code in prime.c
+	1. Write a function 
+		int isPrime(int num)
+		{
+			//Your Logic Here
+		}
+		reutrn 1 if prime else return 0
+	
+	
+
+	Sorting the array by using bubble sort, selection sort & insertion sort lets see an example of code in sort.c 
